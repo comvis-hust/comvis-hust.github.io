@@ -59,181 +59,47 @@
     <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
     -->
 
+    <style>
+      .column {
+        float: left;
+        width: 50%;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      </style>
+
   </head>
 
   <body>
 
-  <!-- Static top navbar -->
+    <!-- Static top navbar -->
+    <iframe src="/includes/menu_top.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"> </iframe>  
 
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <a class="navbar-brand" href="/">
-        <img class="navbar-left logo" src="/assets/themes/lab/images/logo/lab-logo.png" type="image/svg+xml" style="width:140px">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!-- Content -->
+    <div class="container">  
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav"> 
-
-          
-          
-
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          	
-            
-              
-              <li class="nav-item">
-                <a class="nav-link" href="/research/">Research</a>
-              </li>
-              
-            
-          
-          
-          
-          
-          	
-            
-              
-              <li class="nav-item">
-                <a class="nav-link" href="/team/">Team</a>
-              </li>
-              
-            
-          
-          
-          
-          
-          	
-            
-              
-              <li class="nav-item">
-                <a class="nav-link" href="/papers/">Papers</a>
-              </li>
-
-<li class="nav-item">
-                <a class="nav-link" href="/datasets/">Datasets</a>
-              </li>
-
-        </ul>
+    <div class="row">
+      <div class="column">
+        <img width="90%" src="/assets/images/about/B1.jpg">  
       </div>
-    </div>
-  </nav>
-
-  <!-- Content -->
-<div class="container">
-
-<!-- <img src="https://lh4.googleusercontent.com/Rsk0Q6Rmyopa_ehVZ3Cu80UE9Sqw8_FyMJ16dmQrc2wcrl1wPuue2tfQdoePZ2FB2jvFETY1gDgQ_oLnR8JvjQ19y_za0ewf2XpTfbL12QMNSc-JDyL3zQC2NzLYuvMcTw=w1280">
-
-<p><a name="contact"></a></p>
-<h1 id="contact">Contact</h1>
-
-
-
-<p><i class="far fa-building" aria-hidden="true"></i>Room A108, Block A, University of Information Technology, VNU-HCM<br />
-Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City<br /></p>
-
-<p>
-Website: www.uit.edu.vn<br />
-Email: khangnttm (at) uit.edu.vn (Mr. Khang)<br />
-Email: nguyenvd (at) uit.edu.vn (Mr. Nguyen)<br />
-</p> -->
-
-<div class="row">
-  <div class="column">
-    <img width="90%" src="./assets/images/about/UIT.jpg">  
-  </div>
-  <div class="column">
-    <p><i class="far fa-building" aria-hidden="true"></i>Room A108, Block A, University of Information Technology, VNU-HCM<br />
-      Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City<br /></p>
-      
-      <p>
-      Website: www.uit.edu.vn<br />
-      Email: khangnttm (at) uit.edu.vn (Mr. Khang)<br />
-      Email: nguyenvd (at) uit.edu.vn (Mr. Nguyen)<br />
-      </p> 
-  </div>
-</div> 
-
-</div>
-
-
-
-<style>
-.column {
-  float: left;
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
-
-  <!-- Static bottom navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom">
-      <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jb-bottom-collapse" aria-controls="jb-bottom-collapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="jb-bottom-collapse">
-<ul class="navbar-nav mr-auto navbar-small"> 
-          <li class="nav-item"><a href=https://www.uit.edu.vn/>Room A108, Block A, University of Information Technology, VNU-HCM</a></li>
-          <li class="nav-item"><a href=https://www.uit.edu.vn/>Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City</a></li>
-        </ul>
-        
-        <ul class="navbar-nav navbar-small">
-          <li class="nav-item"><a href='/about.html#purpose'>About</a></li>
-          <li class="nav-item"><a href='/about.html#join'>Join</a></li>
-          <li class="nav-item"><a href='/about.html#contact'>Contact</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
+      <div class="column">
+        <p><i class="far fa-building" aria-hidden="true"></i>Room 910, Building B1, Hanoi University of Science and Technology (HUST) <br> 
+          1, Đai Cồ Việt st. Hà Nội, Việt Nam<br /></p>          
+          
+          Website: mica.edu.vn<br />
+          Email: comvis-mica@mica.edu.vn<br />
+          Email: comvis.hus@gmail.com<br />
+          </p> 
       </div>
-  </nav>
+    </div> 
 
-
-
-    
-
-
+    <!-- Static bottom navbar -->
+    <iframe src="/includes/footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"> </iframe>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

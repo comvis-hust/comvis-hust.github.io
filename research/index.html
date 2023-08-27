@@ -68,61 +68,15 @@
   </head>
 
   <body>
-  <!-- Static top navbar -->  
+    <!-- Static top navbar -->
+    <iframe src="/includes/menu_top.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"> </iframe>  
   
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <!-- Content -->
     <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <a class="navbar-brand" href="/">
-        <img class="navbar-left logo" src="/assets/themes/lab/images/logo/lab-logo.png" type="image/svg+xml" style="width:140px">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav"> 
-
-          
-              
-              <li class="nav-item active">
-                <a class="nav-link" href="/research/">Research</a>
-              </li>
-              
-            
-              
-              <li class="nav-item">
-                <a class="nav-link" href="/team/">Team</a>
-              </li>
-              
-            
-            
-              
-              <li class="nav-item">
-                <a class="nav-link" href="/papers/">Papers</a>
-              </li>
-
-<li class="nav-item">
-                <a class="nav-link" href="/datasets/">Datasets</a>
-              </li>
-
-            
-              <li class="nav-item">
-                <a class="nav-link" href="/tutorials/">Tutorials</a>
-              </li>
-      
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-  <!-- Content -->
-  <div class="container">
     <h2>Active Projects</h2>
     <!-- <div class="container"> -->
 
-    <div class='row'>
+      <div class='row'>
           <div class="media mb-1 mt-1">
               <div class="col-md-4">
               <a class="media-left" href="#">                
@@ -164,77 +118,57 @@
 
               </div>
           </div>
-
-    </div>
+      </div>
       
-    <div class='row'>
-          <div class="media mb-1 mt-1">
-              <div class="col-md-4">
-              <a class="media-left" href="#">
-                
-                <img class="pull-left mr-3 img-fluid" src="/assets/images/researches/action_recognition/system.jpg" alt="IMAGE CAPTIONING">
-                <!-- <img class="pull-left mr-3 img-fluid" src="/assets/images/researches/action_recognition/handshake_deeph.gif" alt="IMAGE CAPTIONING">
-                <img class="pull-left mr-3 img-fluid" src="/assets/images/researches/action_recognition/handshake_skeleton.gif" alt="IMAGE CAPTIONING"> -->
+      <div class='row'>
+            <div class="media mb-1 mt-1">
+                <div class="col-md-4">
+                <a class="media-left" href="#">
+                  
+                  <img class="pull-left mr-3 img-fluid" src="/assets/images/researches/action_recognition/system.jpg" alt="IMAGE CAPTIONING">
+                  <!-- <img class="pull-left mr-3 img-fluid" src="/assets/images/researches/action_recognition/handshake_deeph.gif" alt="IMAGE CAPTIONING">
+                  <img class="pull-left mr-3 img-fluid" src="/assets/images/researches/action_recognition/handshake_skeleton.gif" alt="IMAGE CAPTIONING"> -->
 
 
-              </a>
-              </div>
-              <div class="media-body col-md-8">
-                  <a href="#">
-                  <h4 class="media-heading">HUMAN ACTION AND DYNAMIC HAN GESTURES RECOGNITION<small class="text-muted">(2010–)</small></h4>
-                  </a>
+                </a>
+                </div>
+                <div class="media-body col-md-8">
+                    <a href="#">
+                    <h4 class="media-heading">HUMAN ACTION AND DYNAMIC HAN GESTURES RECOGNITION<small class="text-muted">(2010–)</small></h4>
+                    </a>
+                    
+                    <a href="#">
+                      <img src="/assets/images/team/thay_hai_vu.jpg" class="img-circle" alt="hAI vU" height="60">
+                    </a>                  
+                    
+                    <a href="#">
+                      <img src="/assets/images/team/thanh-hai-300x300.jpg" class="img-circle" alt="Thanh-Hai Tran" height="60">
+                    </a>        
+                      
+
+                    <p>The use of hand gestures provides an attractive alternative to
+                      cumbersome interface devices in human-computer interaction (HCI). In such applications, gestures are acquired by sensors
+                      then automatically recognized and matched to several commands to control the machines. In the literature, a number of
+                      studies on this topic have significantly increased in recent years due to their wide applications in virtual reality,
+                      game, and healthcare or HCI. To be deployed in practice, hand gestures need to be intuitively designed while still being
+                      easy to memorize for users, easy to implement, and simple to deploy. Besides, the algorithms for hand gesture recognition
+                      must be highly accurate and lightweight to run on low-resource computers or edge devices </p>
+
+                    <p><a href="https://ieeexplore.ieee.org/document/10135101" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i>Hand Gesture Recognition From Wrist-Worn Camera for Human–Machine Interaction</a>(2023)</p>
+                    <p><a href="https://ieeexplore.ieee.org/document/9980250" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i>Dynamic Hand Gesture Recognition from Egocentric Videos based on SlowFast Architecture</a>(2022)</p>
                   
-                  <a href="#">
-                    <img src="/assets/images/team/thay_hai_vu.jpg" class="img-circle" alt="hAI vU" height="60">
-                  </a>                  
-                  
-                  <a href="#">
-                    <img src="/assets/images/team/thanh-hai-300x300.jpg" class="img-circle" alt="Thanh-Hai Tran" height="60">
-                  </a>        
+                    <!-- expand if more than 3 papers -->
                     
 
-                  <p>The use of hand gestures provides an attractive alternative to
-                    cumbersome interface devices in human-computer interaction (HCI). In such applications, gestures are acquired by sensors
-                    then automatically recognized and matched to several commands to control the machines. In the literature, a number of
-                    studies on this topic have significantly increased in recent years due to their wide applications in virtual reality,
-                    game, and healthcare or HCI. To be deployed in practice, hand gestures need to be intuitively designed while still being
-                    easy to memorize for users, easy to implement, and simple to deploy. Besides, the algorithms for hand gesture recognition
-                    must be highly accurate and lightweight to run on low-resource computers or edge devices </p>
-
-                  <p><a href="https://ieeexplore.ieee.org/document/10135101" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i>Hand Gesture Recognition From Wrist-Worn Camera for Human–Machine Interaction</a>(2023)</p>
-                  <p><a href="https://ieeexplore.ieee.org/document/9980250" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i>Dynamic Hand Gesture Recognition from Egocentric Videos based on SlowFast Architecture</a>(2022)</p>
-                 
-                  <!-- expand if more than 3 papers -->
-                  
-
-              </div>
-          </div>
-
+                </div>
+            </div>
+      </div>
     </div>
     
 
-  <!-- Static bottom navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom">
-      <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jb-bottom-collapse" aria-controls="jb-bottom-collapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="jb-bottom-collapse">
-        <ul class="navbar-nav mr-auto navbar-small"> 
-          <li class="nav-item"><a href=https://www.uit.edu.vn/>Room A108, Block A, University of Information Technology, VNU-HCM</a></li>
-          <li class="nav-item"><a href=https://www.uit.edu.vn/>Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City</a></li>
-        </ul>
-        
-        <ul class="navbar-nav navbar-small">
-          <li class="nav-item"><a href='/about.html#purpose'>About</a></li>
-          <li class="nav-item"><a href='/about.html#join'>Join</a></li>
-          <li class="nav-item"><a href='/about.html#contact'>Contact</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-      </div>
-  </nav>
+   <!-- Static bottom navbar -->
+   <iframe src="/includes/footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"> </iframe>
+  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="/assets/themes/lab/bootstrap/js/bootstrap.min.js"></script>
