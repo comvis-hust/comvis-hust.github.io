@@ -93,6 +93,14 @@
          ::-webkit-scrollbar-thumb:hover {
             background: #555;
         }
+
+        .color-text {
+            /* background-color: white; */
+            color: rgb(18, 71, 185);
+            font-weight: normal;
+            text-shadow: 4px 0 0 rgba(242, 246, 255, 0.7), -4px 0 0 rgba(242, 246, 255, 0.7), 0 4px 0 rgba(242, 246, 255, 0.7), 0 -4px 0 rgba(242, 246, 255, 0.7), 2px 2px rgba(242, 246, 255, 0.7), -2px -2px 0 rgba(242, 246, 255, 0.7), 2px -2px 0 rgba(242, 246, 255, 0.7), -1px 1px 0 rgba(242, 246, 255, 0.7);
+            background: rgba(255, 255, 255, 0.5);
+        }
     </style>
 </head>
 
@@ -100,62 +108,31 @@
 
     <!-- Static top navbar -->
     <iframe src="/includes/menu_top.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"> </iframe>  
-
     <!-- Content -->
     <div class="container">
-        <!-- <div class="logotitle logobox color-text">
+        <!-- <div class="logotitle logobox color-text"> -->
+        <div class="title logobox color-text">
 		    Computer Vision Group, Hanoi University of Science and Technology
-	    </div>  -->
+	    </div> 
         
         <div class="row mb-3">
-            <div class="col-md-12">
-                <style>
-                    .color-text {
-                        /* background-color: white; */
-                        color: rgb(18, 71, 185);
-                        font-weight: normal;
-                        text-shadow: 4px 0 0 rgba(242, 246, 255, 0.7), -4px 0 0 rgba(242, 246, 255, 0.7), 0 4px 0 rgba(242, 246, 255, 0.7), 0 -4px 0 rgba(242, 246, 255, 0.7), 2px 2px rgba(242, 246, 255, 0.7), -2px -2px 0 rgba(242, 246, 255, 0.7), 2px -2px 0 rgba(242, 246, 255, 0.7), -1px 1px 0 rgba(242, 246, 255, 0.7);
-                        background: rgba(255, 255, 255, 0.5);
-                    }
-                </style>
+            <div class="col-md-12">               
                 <!-- <div class="carousel-overlay logotitle logobox color-text" >
 	                UIT-Together Research Group
 	            </div> -->
-
-
 	            <div id="carousel" class="carousel slide" data-ride="carousel">
 		            <ol class="carousel-indicators">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
-
                         <li data-target="#carousel" data-slide-to="1"></li>
-
                         <li data-target="#carousel" data-slide-to="2"></li>
-
                         <li data-target="#carousel" data-slide-to="3"></li>
-
-                        <li data-target="#carousel" data-slide-to="4"></li>
-            
-                        <li data-target="#carousel" data-slide-to="5"></li> 
-
-                        <li data-target="#carousel" data-slide-to="6"></li>
-
-                        <li data-target="#carousel" data-slide-to="7"></li>
-
-                        <li data-target="#carousel" data-slide-to="8"></li>
-
-                        <li data-target="#carousel" data-slide-to="9"></li>
-
-                        <li data-target="#carousel" data-slide-to="10"></li>
-
-                        <li data-target="#carousel" data-slide-to="11"></li>
-
-                        <li data-target="#carousel" data-slide-to="12"></li>
-
+                        <li data-target="#carousel" data-slide-to="4"></li>            
+                        <li data-target="#carousel" data-slide-to="5"></li>                                            
 		            </ol>
                 </div>
 
 		        <div class="carousel-inner">          
-                    <div class="carousel-item">
+                    <div class="carousel-item active">
                         <img class="d-block w-100" src="/assets/images/banner/banner1.jpg" alt="">
                     </div>
                     <div class="carousel-item">
